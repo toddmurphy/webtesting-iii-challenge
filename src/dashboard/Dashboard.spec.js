@@ -4,7 +4,7 @@ import {render, fireEvent} from '@testing-library/react';
 
 import Dashboard from './Dashboard';
 
-test('Dashboard component is displaying correctly', () => {
-    expect(render(<Dashboard />)).toMatchSnapshot()  
+test('Dashboard component displays correctly', () => {
+    render(<Dashboard />)
 })
 
